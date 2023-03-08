@@ -44,7 +44,6 @@ public class PlayerController : MonoBehaviour
         {
             gameObject.transform.position = SpawnPoint.transform.position;
             gameObject.transform.rotation = SpawnPoint.transform.rotation;
-            score = 0;
         }
 
         if (other.CompareTag("Wood"))
